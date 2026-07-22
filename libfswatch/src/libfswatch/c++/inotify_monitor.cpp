@@ -327,7 +327,17 @@ namespace fsw
 
     if (!flags.empty())
     {
-      impl->events.emplace_back(impl->wd_to_path[event->wd], impl->curr_time, flags, event->cookie);
+      std::ostringstream filename_stream;
+      filename_stream << impl->wd_to_path[event->wd];
+
+      if ((event->mask & (IN_MOVED_FROM | IN_MOVED_TO)) &&
+          event->len > 0 && event->name[0] != '\0')
+      {
+        filename_stream << "/";
+        filename_stream << event->name;
+      }
+
+      impl->events.emplace_back(filename_stream.str(), impl->curr_time, flags, event->cookie);
     }
 
   }
