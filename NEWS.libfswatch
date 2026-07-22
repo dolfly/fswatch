@@ -1,6 +1,13 @@
 NEWS
 ****
 
+New in 1.22.0:
+
+  * Bug fix, PR 388, Issue 387: The inotify monitor now appends the
+    kernel-provided child name to MovedFrom and MovedTo event paths while
+    forwarding rename-correlation cookies unchanged.
+
+
 New in 1.21.0:
 
   * API, Issues 104 and 273: Add conjunctive path filter evaluation mode.  In

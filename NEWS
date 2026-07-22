@@ -1,7 +1,14 @@
 NEWS
 ****
 
-New in 1.22.0-develop:
+New in 1.22.0:
+
+  * The release workflow now provides an experimental static Linux x86_64
+    archive.
+
+  * Bug fix, PR 388, Issue 387: On Linux, inotify MovedFrom and MovedTo events
+    now report the complete child path for one-sided moves and paired renames,
+    while preserving the kernel rename-correlation cookie.
 
 
 New in 1.21.0:
