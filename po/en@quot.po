@@ -27,10 +27,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fswatch 1.22.0-develop\n"
+"Project-Id-Version: fswatch 1.22.0\n"
 "Report-Msgid-Bugs-To: enrico.m.crisostomo@gmail.com\n"
-"POT-Creation-Date: 2026-05-09 20:17+0200\n"
-"PO-Revision-Date: 2026-05-09 20:17+0200\n"
+"POT-Creation-Date: 2026-07-22 10:43+0200\n"
+"PO-Revision-Date: 2026-07-22 10:43+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en@quot\n"
@@ -375,7 +375,7 @@ msgstr "fanotify added: %s\n"
 #: libfswatch/src/libfswatch/c++/fanotify_monitor.cpp:480
 #: libfswatch/src/libfswatch/c++/fen_monitor.cpp:297
 #: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:293
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:515
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:525
 #: libfswatch/src/libfswatch/c++/kqueue_monitor.cpp:227
 #: libfswatch/src/libfswatch/c++/poll_monitor.cpp:169
 #, c-format
@@ -383,7 +383,7 @@ msgid "Filesystem error: %s"
 msgstr "Filesystem error: %s"
 
 #: libfswatch/src/libfswatch/c++/fanotify_monitor.cpp:466
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:501
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:511
 #, c-format
 msgid "Synthetic event: processing directory: %s\n"
 msgstr "Synthetic event: processing directory: %s\n"
@@ -516,23 +516,23 @@ msgstr "Removing: "
 msgid "Added: "
 msgstr "Added: "
 
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:373
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:383
 msgid "Generic event: "
 msgstr "Generic event: "
 
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:465
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:475
 msgid "Removed: "
 msgstr "Removed: "
 
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:601
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:611
 msgid "Number of records: "
 msgstr "Number of records: "
 
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:607
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:617
 msgid "read() on inotify descriptor read 0 records."
 msgstr "read() on inotify descriptor read 0 records."
 
-#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:615
+#: libfswatch/src/libfswatch/c++/inotify_monitor.cpp:625
 msgid "read() on inotify descriptor returned -1."
 msgstr "read() on inotify descriptor returned -1."
 
