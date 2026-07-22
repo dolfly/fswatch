@@ -1,6 +1,9 @@
 NEWS
 ****
 
+New in 1.23.0-develop:
+
+
 New in 1.22.0:
 
   * The release workflow now provides an experimental static Linux x86_64
